@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you like to do?"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/barchart"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/syllabus"
+            android:layout_weight="1"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/test"
+            android:layout_weight="1"
+            >
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch deviation"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch syllabus"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch past exams"
+            android:layout_weight="1"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Please insert course name or code:"
+        >
+
+    </TextView>
+    <AutoCompleteTextView
+        android:id="@+id/menu_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Please insert a year:"
+        >
+
+    </TextView>
+    <AutoCompleteTextView
+        android:id="@+id/year_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Please insert a semester:"
+        >
+
+    </TextView>
+    <AutoCompleteTextView
+        android:id="@+id/semester_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Didn't find what you looked for? you can"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add information"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </Button>
+
+
+
+</LinearLayout>
